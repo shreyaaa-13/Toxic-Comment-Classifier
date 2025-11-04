@@ -1,0 +1,133 @@
+================================================================================
+    QUICK GITHUB SETUP - TOXIC COMMENT CLASSIFIER
+================================================================================
+
+🎯 FASTEST METHOD (3 STEPS)
+================================================================================
+
+1. CREATE GITHUB REPOSITORY
+   -------------------------
+   Go to: https://github.com/new
+   
+   Repository name: Toxic-Comment-Classifier
+   Description: NLP-based toxic comment classifier
+   Visibility: Public
+   
+   ⚠️ DO NOT check "Initialize with README"
+   
+   Click "Create repository"
+
+
+2. RUN THESE COMMANDS
+   -------------------
+   Open Command Prompt in project folder:
+   
+   cd "c:\xampp\htdocs\Toxic Comment Classifier"
+   
+   git init
+   git add .
+   git commit -m "Initial commit: Toxic Comment Classifier"
+   git remote add origin https://github.com/YOUR-USERNAME/Toxic-Comment-Classifier.git
+   git branch -M main
+   git push -u origin main
+   
+   ⚠️ Replace YOUR-USERNAME with your GitHub username
+
+
+3. AUTHENTICATE
+   -------------
+   When prompted for password, use Personal Access Token:
+   
+   Get token: https://github.com/settings/tokens
+   - Click "Generate new token (classic)"
+   - Name: "Toxic Comment Classifier"
+   - Check: repo (full control)
+   - Generate and COPY the token
+   - Use this as your password
+
+
+================================================================================
+    OR USE THE BATCH FILE
+================================================================================
+
+Simply run:
+
+    .\push_to_github.bat
+
+And follow the prompts!
+
+
+================================================================================
+    WHAT GETS UPLOADED
+================================================================================
+
+✅ WILL BE UPLOADED:
+   - Source code (*.py files)
+   - Documentation (*.md files)
+   - Configuration (requirements.txt, config.py)
+   - Scripts (*.bat files)
+   - Notebook (*.ipynb)
+
+❌ WILL NOT BE UPLOADED (in .gitignore):
+   - Data files (data/*.csv)
+   - Trained models (models/*.pkl, models/*.h5)
+   - Python cache (__pycache__/)
+   - IDE settings (.vscode/, .idea/)
+
+
+================================================================================
+    FUTURE UPDATES
+================================================================================
+
+After making changes:
+
+    git add .
+    git commit -m "Description of changes"
+    git push
+
+Or simply run:
+
+    .\push_to_github.bat
+
+
+================================================================================
+    TROUBLESHOOTING
+================================================================================
+
+❌ "git: command not found"
+   → Install Git: https://git-scm.com/downloads
+
+❌ "Authentication failed"
+   → Use Personal Access Token, not password
+   → Get token: https://github.com/settings/tokens
+
+❌ "remote origin already exists"
+   → git remote remove origin
+   → Then add again with correct URL
+
+❌ "failed to push"
+   → git pull origin main --rebase
+   → git push origin main
+
+
+================================================================================
+    YOUR REPOSITORY URL
+================================================================================
+
+After uploading, your project will be at:
+
+    https://github.com/YOUR-USERNAME/Toxic-Comment-Classifier
+
+Share this link to showcase your project!
+
+
+================================================================================
+    NEED MORE HELP?
+================================================================================
+
+See detailed guide: GITHUB_GUIDE.md
+
+Or visit: https://docs.github.com/
+
+
+================================================================================
