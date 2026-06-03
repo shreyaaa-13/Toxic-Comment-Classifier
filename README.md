@@ -154,16 +154,20 @@ Categories include:
 
 ## Project Structure
 
-ToxicGuard/
-├── dataset/ # Training dataset
-├── notebooks/ # Model development notebooks
-├── models/ # Saved trained models
-├── static/ # CSS, JS assets
-├── templates/ # HTML templates
-├── app.py # Flask application
-├── requirements.txt # Dependencies
-├── README.md # Documentation
-└── model_training.py # Model training pipeline
+```text
+ToxicGuard-AI/
+│
+├── data/
+├── models/
+├── src/
+│
+├── app.py
+├── config.py
+├── experiment.ipynb
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
 
 ---
 
